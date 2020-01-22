@@ -10,10 +10,10 @@
 }
 
 .list-modest {
-  counter-reset: modest 2;
+  counter-reset: modest;
 }
 .list-modest .list-item::before {
-  counter-increment: modest;
+  counter-increment: modest 2;
   content: "0" counter(modest);
   display: flex;
   align-items: center;
